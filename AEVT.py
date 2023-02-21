@@ -310,11 +310,9 @@ def core_loop():
         weather = [sunny, rainy, cloudy, snowy, windy, icy]
         print(f"{random.choice(wakeup)}\n")
         input(f"{random.choice(weather)}\n\nhit ENTER to continue\n")
-        pass
         mine(stamina,mine_supply,sack)
         time.sleep(1)
         input(f"\nYou walk to the shopkeepers makeshift booth. He {random.choice(greeting)} as you approach him\n\nhit ENTER to continue\n")
-        pass
         go_shopping()
         time.sleep(1)
         go_home()
