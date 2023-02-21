@@ -47,8 +47,3 @@ while play == 1:
 AEVT.mine(AEVT.stamina,AEVT.mine_supply,AEVT.sack)
 AEVT.go_home()
 AEVT.core_loop()
-
-#in the backyard of your childhood home. 
-#I grew up in an apartment
-#That seems awfully convenient
-#look, we're trying to wrap up this apprenticeship application, and unlike some people we have a day job. Just roll with it.
