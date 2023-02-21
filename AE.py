@@ -32,15 +32,10 @@ while play == 0:
         continue
 while play == 1:
     input(f"{AEVT.story_context_1}\n\nhit ENTER to continue")
-    pass
     input(f"{AEVT.story_context_2}\n\nhit ENTER to continue")
-    pass
     input(f"{AEVT.meet_shopkeeper_1}\n\nhit ENTER to continue")
-    pass
     input(f"{AEVT.meet_shopkeeper_2}\n\nhit ENTER to continue")
-    pass
     input(f"{AEVT.meet_shopkeeper_3}\n\nhit ENTER to continue")
-    pass
     input(f"{AEVT.mine_descirption}\n\nhit ENTER to continue\n")
     play += 1
 
