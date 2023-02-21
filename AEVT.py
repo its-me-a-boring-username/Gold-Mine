@@ -212,8 +212,8 @@ def buy(old_list,new_list,item,cost):
         print(f"You now have a {item}")
         new_list.append(item)
         old_list.remove(item)
-        print(old_list)
-        print(new_list)
+        #print(old_list)
+        #print(new_list)
 
     else:
         print("You don't have enough money for this")
@@ -260,7 +260,7 @@ def go_shopping():
                         print(f"You now own a {want}")
                         print(f"Your new balance is now {balance}")
                         stuff_for_sale.pop(want)
-                        leave = print("Head to the mine, or do something else?") 
+                        leave = print("Go home, or do something else?") 
     #-selling some ore-#
         elif offer_menu.lower() == 'sell ore':
             x = input(f"What are you selling: \n{sg} \n{mg} \n{lg}")
