@@ -224,7 +224,7 @@ def go_shopping():
     
     stuff_for_sale = {
         "Porsche Taycan": 300,}
-    #-menu persistence and options-#
+    #-repay debt-#
     view_menu = True
     if balance > your_debt:
         print("It looks like you have enough money to repay your debt now.")
@@ -238,7 +238,7 @@ def go_shopping():
     #-quit-#    
         if offer_menu.lower() == 'quit':
             quit()
-    #-repay debt-#
+    
         
     #-buying things-#
         elif offer_menu.lower() == 'buy something':
