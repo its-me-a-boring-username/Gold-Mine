@@ -72,7 +72,7 @@ Let's test this out by choising a backstory for your character\n'''
 choose_class = "Are you: \n\nan orphan\na retiree\na student\n"
 
 student_description = (f'''\nYou're a poor college student. In addition to your $1,570,300 in student loans,
-you managed to rack up parents ${your_debt} in extremely high interest credit card debt paying
+you managed to rack up ${your_debt} in extremely high interest credit card debt paying
 for premium ramen. The ramen was worth it, but, unless you want to pay 3000% interest on your purchase 
 after the special introductory rate ends this month, you need a way to quickly make some cash.''')
 
