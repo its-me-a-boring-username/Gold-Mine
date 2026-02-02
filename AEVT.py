@@ -223,7 +223,7 @@ def go_shopping():
     global balance
     
     stuff_for_sale = {
-        "Porsche Taycan": 300,}
+        "porsche taycan": 300,}
     #-repay debt-#
     view_menu = True
     if balance > your_debt:
@@ -318,4 +318,5 @@ def core_loop():
         go_home()
         #input("\n\nhit ENTER to continue\n")
         continue
+
 
