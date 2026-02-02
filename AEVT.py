@@ -223,7 +223,7 @@ def go_shopping():
     global balance
     
     stuff_for_sale = {
-        "porsche taycan": 300,}
+        "Porsche Taycan": 300,}
     #-repay debt-#
     view_menu = True
     if balance > your_debt:
@@ -249,7 +249,7 @@ def go_shopping():
                 print("The following items are for sale")
                 print(stuff_for_sale)
                 want = input("What would you like to buy?")
-                if want.lower() not in stuff_for_sale:
+                if want.title() not in stuff_for_sale:
                     print("We don't have that item in stock")
                 else:
                     print(f"This {want} costs {stuff_for_sale.get(want)}")
@@ -318,5 +318,6 @@ def core_loop():
         go_home()
         #input("\n\nhit ENTER to continue\n")
         continue
+
 
 
