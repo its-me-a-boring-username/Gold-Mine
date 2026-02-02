@@ -274,7 +274,7 @@ def go_shopping():
                 print("You can't sell that")
     #-selling all ore-#
         elif offer_menu.lower() == 'sell all ore':
-            if sack.count(sg) + sack.count(sg) + sack.count(sg) == 0:
+            if sack.count(sg) + sack.count(mg) + sack.count(lg) == 0:
                 print("You've already sold all of your ore")
             else:
                 sellall(sack,sg,mg,lg,ore_value.get(sg),ore_value.get(mg),ore_value.get(lg))
@@ -318,3 +318,4 @@ def core_loop():
         go_home()
         #input("\n\nhit ENTER to continue\n")
         continue
+
